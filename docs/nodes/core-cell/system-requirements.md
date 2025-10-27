@@ -12,10 +12,9 @@ The following sections show the recommended specifications for both CNs and PNs.
 
 | Category | Specification |
 | :--- | :--- |
-| Server | Intel® Server System [M50CYP1UR212](https://www.intel.sg/content/www/xa/en/products/sku/214842/intel-server-system-m50cyp1ur212/specifications.html) |
-| CPU | Intel® Xeon 8358 2.60 GHz \(32-core/64-thread\) |
-| Memory | 128GB \(32GB \* 4\) |
-| Storage | 4TB (or larger size) SSD (The preferred storage size and configuration could differ depending on the chain data size. Please consult the Kaia Team for more information.) |
+| CPU | 16 core / 32 threads, 2.6 GHz Base ~ 3.4 GHz Max or higher (e.g. 3rd Gen Intel® Xeon® Scalable Processors) |
+| Memory | 128 GB RAM |
+| Storage | >= 4TB SSD (adjust based on chain data size; Please consult the Kaia Team for more information.) |
 
 Note that this is a recommended hardware specification for CNs and PNs, not an exact requirement. Any physical machine with similar hardware configurations would be sufficient to operate a CN or a PN.
 
