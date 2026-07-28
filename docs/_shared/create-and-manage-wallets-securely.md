@@ -64,7 +64,7 @@ Cold storage refers to keeping private keys on a device that is not connected to
 
 #### 2.3. Multi-Signature Wallets: An Introduction to Safe Wallet
 
-A multi-signature (or "multi-sig") wallet is a smart contract that requires multiple private keys to approve a transaction before it can be executed. For example, a 2-of-3 multi-sig requires approval from two out of three designated owners. This is the standard for managing team funds, treasuries, and critical smart contract administration, as it prevents a single point of failure. On Kaia, use **Safe Wallet** from [Safe](https://safe.global) (Safe Global) at [app.safe.global](https://app.safe.global)—see the [Safe Wallet guide](/build/wallets/safe-wallet/use-safe-wallet). (`safe.kaia.io` sunsets on **August 9, 2026**.)
+A multi-signature (or "multi-sig") wallet is a smart contract that requires multiple private keys to approve a transaction before it can be executed. For example, a 2-of-3 multi-sig requires approval from two out of three designated owners. This is the standard for managing team funds, treasuries, and critical smart contract administration, as it prevents a single point of failure. On Kaia, use **Safe Wallet** from [Safe](https://safe.global) (Safe Global) at [app.safe.global](https://app.safe.global)—see the [Safe Wallet guide](/build/wallets/safe-wallet/use-safe-wallet). (`safe.kaia.io` sunsets on **August 31, 2026**.)
 
 ## Part 2: Practical Recipes for Wallet Management
 
