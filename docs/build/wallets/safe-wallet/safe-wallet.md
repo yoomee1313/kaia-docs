@@ -7,7 +7,7 @@ sidebar_label: Safe Wallet
 
 :::caution Sunset notice
 
-`safe.kaia.io` will sunset on **August 9, 2026**. Please use **Safe Wallet** for Kaia at [app.safe.global](https://app.safe.global) to manage your accounts going forward.
+`safe.kaia.io` will sunset on **August 31, 2026**. Please use **Safe Wallet** for Kaia at [app.safe.global](https://app.safe.global) to manage your accounts going forward.
 
 Already using Kaia Safe? See **[Migrate to Safe Global](./migrate-to-safe-global.md)** — your existing Safe accounts are unaffected and available on Safe Wallet.
 

@@ -7,7 +7,7 @@ sidebar_label: Migrate to Safe Global
 
 :::caution Sunset notice
 
-`safe.kaia.io` will sunset on **August 9, 2026**. Please use **Safe Wallet** for Kaia at [app.safe.global](https://app.safe.global) to manage your accounts going forward.
+`safe.kaia.io` will sunset on **August 31, 2026**. Please use **Safe Wallet** for Kaia at [app.safe.global](https://app.safe.global) to manage your accounts going forward.
 
 :::
 
@@ -31,26 +31,31 @@ Kaia previously offered **Kaia Safe** (`safe.kaia.io`), a hosted fork of Gnosis 
 **What you should update**
 
 * Use [app.safe.global](https://app.safe.global) instead of `safe.kaia.io`
-* Select **Kaia Mainnet** or **Kairos Testnet** in Safe Wallet
 * Update bookmarks that still point at `safe.kaia.io`
-* Optionally export/import local UI data (address book, nicknames) if you want those labels in the new interface
+* [Export your Address Book](#export-your-address-book) before the sunset date if you want to keep your saved names and labels
 
-This has been verified: existing Safes created via Kaia Safe appear on Safe Global when you connect an owner wallet and select the correct network (**Kaia** or **Kairos**). You do **not** need to redeploy, recreate, or move funds to a new Safe.
+This has been verified: existing Safes created via Kaia Safe appear on Safe Global when you connect an owner wallet. You do **not** need to redeploy, recreate, or move funds to a new Safe.
 
 ## How to open your existing Safe on Safe Global
 
 1. Open [app.safe.global](https://app.safe.global).
 2. Connect a wallet that is an **owner** of your Safe (for example Kaia Wallet or MetaMask).
-3. Select **Kaia Mainnet** or **Kairos Testnet**.
-4. Your existing Safe should appear. If it does not, use **Add existing Safe** / **Load**, paste the Safe address, and confirm the network.
+3. Your existing Safe should appear, labeled with its network (**Kaia** or **Kairos**). If it does not, go to [app.safe.global/welcome/accounts](https://app.safe.global/welcome/accounts) and click **Manage list** to see the Safes associated with your connected wallet.
 
-Optional: before `safe.kaia.io` sunsets, export local data (address book and settings) from the old UI and import it under **Settings → Data** in Safe Wallet if you want to keep nicknames and related browser data. This is optional and does not affect on-chain ownership or balances.
+## Export your Address Book
+
+Your Address Book—the names and labels you saved for addresses—is stored locally in the `safe.kaia.io` interface, not on-chain. It is the only thing that does **not** carry over automatically, so export it before the sunset date if you want to keep it.
+
+1. In `safe.kaia.io`, go to **Settings → Data → Data export** and download the file.
+2. Navigate to [app.safe.global/welcome/accounts](https://app.safe.global/welcome/accounts) and upload that file under **Import your Safe data**.
+
+This step is optional and does not affect on-chain ownership or balances.
 
 ## Quick answers
 
 * **Do I need to create a new Safe?** No.
 * **Do my funds or owners change?** No.
-* **Can I keep using `safe.kaia.io`?** Only until **August 9, 2026**. Switch to [app.safe.global](https://app.safe.global) now.
+* **Can I keep using `safe.kaia.io`?** Only until **August 31, 2026**. Switch to [app.safe.global](https://app.safe.global) now.
 * **Where do I get more help?** [Safe Wallet Help Center](https://help.safe.global) and [FAQs](./faqs.md).
 
 ## Next steps
